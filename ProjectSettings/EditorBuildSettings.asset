@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UI/SelectDifficultyUI/DifficultyUI.unity
     guid: f6e7efeaf17330044a7cb90f1bc8716a
+  - enabled: 1
+    path: Assets/Scenes/GameDifficulty/1v1_3wins/1v1_3wins.unity
+    guid: 0a4544d59c2c6594cb85fe0f01c5df1f
+  - enabled: 1
+    path: Assets/Scenes/GameDifficulty/1v1_5wins/1v1_5wins.unity
+    guid: f9474de0cd17f4d48935bc633254dd29
+  - enabled: 1
+    path: Assets/Scenes/GameDifficulty/3v1_1win/3v1_1win.unity
+    guid: 5b07ba3332df05e43a48db3cfd22b1d2
   m_configObjects: {}
