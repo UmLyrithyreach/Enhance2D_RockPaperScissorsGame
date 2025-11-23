@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     public Image ScissorsImage_Computer;
     public Text computerIndex;
     public Text userIndex;
+    public Button returnToMainMenuButton;
 
     private string userChoice;
     private string computerChoice;
@@ -31,6 +32,11 @@ public class GameManager : MonoBehaviour
         
         GenerateComputerChoice();
         DetermineWinner();
+    }
+
+    void LoadMainMenu()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
     }
 
     private void GenerateComputerChoice()
@@ -86,5 +92,6 @@ public class GameManager : MonoBehaviour
         rockButton.onClick.AddListener(() => OnChoiceClicked("Rock", RockImage_User));
         paperButton.onClick.AddListener(() => OnChoiceClicked("Paper", PaperImage_User));
         scissorsButton.onClick.AddListener(() => OnChoiceClicked("Scissors", ScissorsImage_User));
+        returnToMainMenuButton.onClick.AddListener(LoadMainMenu);
     }
 }
