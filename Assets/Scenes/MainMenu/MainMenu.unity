@@ -274,8 +274,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startButton: {fileID: 769061084}
   selectDifficultyButton: {fileID: 96140797}
-  sceneName1: Game1V1_NormDificulty
-  sceneName2: DifficultyUI
+  startScene: Game1V1_NormDificulty
+  loadDifficultyScene: DifficultyUI
 --- !u!4 &458149879
 Transform:
   m_ObjectHideFlags: 0
