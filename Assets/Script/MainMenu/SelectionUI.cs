@@ -8,13 +8,13 @@ public class SelectionUIManagement : MonoBehaviour
 {
     public Button startButton;
     public Button selectDifficultyButton;
-    public string sceneName1;
-    public string sceneName2;
+    public string startScene;
+    public string loadDifficultyScene;
 
     void Start()
     {
-        startButton.onClick.AddListener(() => LoadScene(sceneName1));
-        selectDifficultyButton.onClick.AddListener(() => LoadScene(sceneName2));
+        startButton.onClick.AddListener(() => LoadScene(startScene));
+        selectDifficultyButton.onClick.AddListener(() => LoadScene(loadDifficultyScene));
     }
 
     public void LoadScene(string scene)

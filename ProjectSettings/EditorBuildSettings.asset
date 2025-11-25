@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameDifficulty/3v1_1win/3v1_1win.unity
     guid: 5b07ba3332df05e43a48db3cfd22b1d2
+  - enabled: 1
+    path: Assets/Scenes/UI/GameOver/GameOverUIScene.unity
+    guid: 962905ca5c58545498668d1b693b66c1
   m_configObjects: {}
